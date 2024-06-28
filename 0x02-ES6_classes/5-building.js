@@ -1,9 +1,9 @@
 class Building {
   constructor(sqft) {
-    if (this.constructor !== Building 
+    if (this.constructor !== Building
       && typeof this.evacuationWarningMessage !== 'function') {
       throw new Error(
-        'Classes extending Building must implement evacuationWarningMessage'
+        'Classes extending Building must implement evacuationWarningMessage',
       );
     }
     this.sqft = sqft;
