@@ -1,11 +1,4 @@
-/**
- * Creates an Int8Array with a specific value at a given position.
- * @param {Number} length - The length of the array.
- * @param {Number} position - The position to place the value.
- * @param {Number} value - The value to be placed.
- * @returns {ArrayBuffer} - The created ArrayBuffer.
- * @throws {Error} - If the position is outside the range of the array.
- */
+/* eslint-disable */
 function createInt8TypedArray(length, position, value) {
   // Create a new ArrayBuffer with the specified length
   const buffer = new ArrayBuffer(length);

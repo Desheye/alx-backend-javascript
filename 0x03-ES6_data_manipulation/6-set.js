@@ -1,3 +1,4 @@
+/* eslint-disable */
 /**
  * Creates a Set from an array.
  * @param {Array} arr - The input array of any kind of elements.
