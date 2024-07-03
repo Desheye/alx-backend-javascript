@@ -12,4 +12,5 @@ function createInt8TypedArray(length, position, value) {
   // Return the underlying ArrayBuffer
   return buffer;
 }
+
 export default createInt8TypedArray;
